@@ -1,5 +1,6 @@
 """Official MCP SDK adapter. Search business logic remains in SearchService."""
 from mcp.server.fastmcp import FastMCP
+from mcp.server.transport_security import TransportSecuritySettings
 from multi_platform_search import SearchService
 
 # Configure the SDK's route path at the constructor level.  The returned
@@ -11,6 +12,13 @@ mcp = FastMCP(
     json_response=True,
     mount_path="/mcp",
     streamable_http_path="/",
+    transport_security=TransportSecuritySettings(
+        allowed_hosts=[
+            "multi-platform-search.onrender.com",
+            "localhost:*",
+            "127.0.0.1:*",
+        ],
+    ),
 )
 service = SearchService()
 
