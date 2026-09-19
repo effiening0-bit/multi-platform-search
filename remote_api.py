@@ -1,10 +1,29 @@
 import os,time,hmac,uuid,hashlib
+from contextlib import asynccontextmanager
 from collections import defaultdict,deque
-from fastapi import FastAPI,Header,HTTPException
+from fastapi import FastAPI,Header,HTTPException,Request
+from fastapi.responses import JSONResponse
 from pydantic import BaseModel,Field
 from multi_platform_search import SearchService
 from multi_platform_search.config import load_local_env
-load_local_env(); app=FastAPI(); service=SearchService(); hits=defaultdict(deque)
+from mcp_adapter import app as mcp_app, mcp
+load_local_env()
+@asynccontextmanager
+async def lifespan(_app):
+    async with mcp.session_manager.run():
+        yield
+app=FastAPI(lifespan=lifespan); service=SearchService(); hits=defaultdict(deque)
+app.mount('/mcp', mcp_app())
+@app.middleware('http')
+async def mcp_auth(request: Request, call_next):
+    if request.url.path.startswith('/mcp'):
+        try:
+            # Reuse the HTTP guard so MCP has identical bearer-auth and
+            # sliding-window rate-limit semantics.
+            guard(request.headers.get('authorization'))
+        except HTTPException as exc:
+            return JSONResponse({'error':exc.detail},status_code=exc.status_code,headers=exc.headers or {})
+    return await call_next(request)
 class RequestModel(BaseModel): query:str=Field(min_length=1,max_length=500); mode:str='normal'; platforms:list[str]|None=None; max_results:int|None=Field(None,ge=1,le=30)
 def guard(header):
     expected=os.getenv('SERVICE_API_KEY',''); auth=os.getenv('SERVICE_AUTH_REQUIRED','true').lower()=='true'

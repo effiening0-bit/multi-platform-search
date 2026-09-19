@@ -1,5 +1,5 @@
 $ErrorActionPreference = 'Stop'
-$target = Join-Path (Get-Location) '.env'
+$target = Join-Path (Split-Path -Parent $PSScriptRoot) '.env'
 function Read-SecretValue([string]$name) {
   $secure = Read-Host "$name (input hidden; press Enter to skip)" -AsSecureString
   $ptr = [Runtime.InteropServices.Marshal]::SecureStringToBSTR($secure)
@@ -7,7 +7,7 @@ function Read-SecretValue([string]$name) {
   finally { [Runtime.InteropServices.Marshal]::ZeroFreeBSTR($ptr) }
 }
 $entries = @()
-foreach ($name in 'TAVILY_API_KEY','EXA_API_KEY','YOUTUBE_API_KEY') {
+foreach ($name in 'SERVICE_API_KEY','TAVILY_API_KEY','EXA_API_KEY','YOUTUBE_API_KEY') {
   $value = Read-SecretValue $name
   if ($value) { $entries += "$name=$value" }
 }
