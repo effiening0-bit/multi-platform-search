@@ -1,0 +1,2528 @@
+[
+  {
+    "query": "医学生如何做 Zotero 文献管理",
+    "timestamp": "2026-09-19T07:59:41.807297+00:00",
+    "router": {
+      "intent": "medical_research",
+      "platforms": [
+        "web",
+        "exa",
+        "youtube",
+        "bilibili",
+        "zhihu"
+      ]
+    },
+    "baseline": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "partial",
+          "detail": "no indexed results"
+        }
+      ],
+      "raw_candidate_count": 0,
+      "deduped_count": 0,
+      "top_results": []
+    },
+    "multi_platform": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "success",
+          "detail": null
+        },
+        {
+          "provider": "exa",
+          "status": "unavailable",
+          "detail": "EXA_API_KEY is not configured"
+        },
+        {
+          "provider": "youtube",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "bilibili",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "zhihu",
+          "status": "partial",
+          "detail": "no indexed results"
+        }
+      ],
+      "raw_candidate_count": 1,
+      "deduped_count": 1,
+      "top_results": [
+        {
+          "id": "web-1",
+          "platform": "web",
+          "title": "Download GitHub Desktop",
+          "url": "https://desktop.github.com/download/",
+          "author": null,
+          "published_at": null,
+          "snippet": "Simple collaboration from your desktop Download GitHub Desktop Focus on what matters instead of fighting with Git. Whether you're new to Git or a seasoned user, GitHub Desktop simplifies your development workflow. Download for Windows (64bit)",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.8,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://desktop.github.com/download",
+          "duplicate_group_id": "dup-001",
+          "metadata": {}
+        }
+      ]
+    },
+    "notes": []
+  },
+  {
+    "query": "口腔医学生怎么整理错题",
+    "timestamp": "2026-09-19T07:59:45.509393+00:00",
+    "router": {
+      "intent": "medical_research",
+      "platforms": [
+        "web",
+        "exa",
+        "youtube",
+        "bilibili",
+        "zhihu"
+      ]
+    },
+    "baseline": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "partial",
+          "detail": "no indexed results"
+        }
+      ],
+      "raw_candidate_count": 0,
+      "deduped_count": 0,
+      "top_results": []
+    },
+    "multi_platform": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "exa",
+          "status": "unavailable",
+          "detail": "EXA_API_KEY is not configured"
+        },
+        {
+          "provider": "youtube",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "bilibili",
+          "status": "success",
+          "detail": null
+        },
+        {
+          "provider": "zhihu",
+          "status": "partial",
+          "detail": "no indexed results"
+        }
+      ],
+      "raw_candidate_count": 3,
+      "deduped_count": 3,
+      "top_results": [
+        {
+          "id": "bilibili-BV1vS4y1m7pK",
+          "platform": "bilibili",
+          "title": "别再做低效错题本了！这可能是最实操的英语错题整理方法！单项选择|完形填空|阅读理解错题整理",
+          "url": "https://www.bilibili.com/video/BV1vS4y1m7pK",
+          "author": "爪爪老斯的英语方法",
+          "published_at": 1649064600,
+          "snippet": "错题整理最重要的是要回归知识点，链接知识点才能举一反三！单项选择，完形填空，阅读理解错题的整理方法都不一样，因为考察的侧重点不一样，大家一定要想它是在考察我什么能力，把能力练强！",
+          "content_type": "video",
+          "engagement": {
+            "views": 114716,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.93,
+          "evidence_level": "community",
+          "extraction_available": true,
+          "canonical_url": "https://bilibili.com/video/BV1vS4y1m7pK",
+          "duplicate_group_id": "dup-001",
+          "metadata": {
+            "bvid": "BV1vS4y1m7pK"
+          }
+        },
+        {
+          "id": "bilibili-BV1GE411Q7Ew",
+          "platform": "bilibili",
+          "title": "高考686分学长手把手教你做错题本-附PDF电子版-错题本经验分享-高考错题本教程【WhynotTV】【Neal】",
+          "url": "https://www.bilibili.com/video/BV1GE411Q7Ew",
+          "author": "WhynotTV",
+          "published_at": 1570004199,
+          "snippet": "这期视频是我做得最用心的视频了\n希望对你有帮助\n错题本下载链接：\nhttps://pan.baidu.com/s/1WbyKRMHNE2_HlNUIdGuNRA\n虽然一页一页扫描十本错题本很累\n但我更高兴能够分享给大家作参考\n欢迎大家在网上分享给其他人\n不用征得我的同意\n加油加油～",
+          "content_type": "video",
+          "engagement": {
+            "views": 5054916,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.88,
+          "evidence_level": "community",
+          "extraction_available": true,
+          "canonical_url": "https://bilibili.com/video/BV1GE411Q7Ew",
+          "duplicate_group_id": "dup-002",
+          "metadata": {
+            "bvid": "BV1GE411Q7Ew"
+          }
+        },
+        {
+          "id": "bilibili-BV1he411s7dz",
+          "platform": "bilibili",
+          "title": "【全市前十的底气！】我整理地理错题的5个小心机 10分钟把错题变为分数 如何总结反思 满满干货",
+          "url": "https://www.bilibili.com/video/BV1he411s7dz",
+          "author": "傻儿1016",
+          "published_at": 1587701121,
+          "snippet": "这期真的超级用心 怕贴出来的题目跟你们没有共鸣所以去看了很多新的模拟题~~~准备周期差不多半个月了 希望能对你们有帮助呀   pppps：一键三连请安排我呜呜呜呜呜呜！！！",
+          "content_type": "video",
+          "engagement": {
+            "views": 256880,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.83,
+          "evidence_level": "community",
+          "extraction_available": true,
+          "canonical_url": "https://bilibili.com/video/BV1he411s7dz",
+          "duplicate_group_id": "dup-003",
+          "metadata": {
+            "bvid": "BV1he411s7dz"
+          }
+        }
+      ]
+    },
+    "notes": []
+  },
+  {
+    "query": "牙周病病例汇报怎么做",
+    "timestamp": "2026-09-19T07:59:52.119083+00:00",
+    "router": {
+      "intent": "medical_research",
+      "platforms": [
+        "web",
+        "exa",
+        "youtube",
+        "bilibili",
+        "zhihu"
+      ]
+    },
+    "baseline": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "partial",
+          "detail": "no indexed results"
+        }
+      ],
+      "raw_candidate_count": 0,
+      "deduped_count": 0,
+      "top_results": []
+    },
+    "multi_platform": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "exa",
+          "status": "unavailable",
+          "detail": "EXA_API_KEY is not configured"
+        },
+        {
+          "provider": "youtube",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "bilibili",
+          "status": "success",
+          "detail": null
+        },
+        {
+          "provider": "zhihu",
+          "status": "partial",
+          "detail": "no indexed results"
+        }
+      ],
+      "raw_candidate_count": 3,
+      "deduped_count": 3,
+      "top_results": [
+        {
+          "id": "bilibili-BV1zT4y1a7s7",
+          "platform": "bilibili",
+          "title": "牙周炎治疗（基础治疗与维护治疗）",
+          "url": "https://www.bilibili.com/video/BV1zT4y1a7s7",
+          "author": "finalzwj",
+          "published_at": 1650772945,
+          "snippet": "牙周治疗中，最基础的部分是龈上洁治、龈下刮治，以及定期的牙周维护治疗。了解牙周基础治疗的过程和目的，持之以恒，保持牙周长期健康。",
+          "content_type": "video",
+          "engagement": {
+            "views": 13891,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.93,
+          "evidence_level": "community",
+          "extraction_available": true,
+          "canonical_url": "https://bilibili.com/video/BV1zT4y1a7s7",
+          "duplicate_group_id": "dup-001",
+          "metadata": {
+            "bvid": "BV1zT4y1a7s7"
+          }
+        },
+        {
+          "id": "bilibili-BV1GNx9e8EZV",
+          "platform": "bilibili",
+          "title": "牙周炎患者如何看懂牙周检查表",
+          "url": "https://www.bilibili.com/video/BV1GNx9e8EZV",
+          "author": "躺在牙椅上的松果体",
+          "published_at": 1727964994,
+          "snippet": "-",
+          "content_type": "video",
+          "engagement": {
+            "views": 953,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.88,
+          "evidence_level": "community",
+          "extraction_available": true,
+          "canonical_url": "https://bilibili.com/video/BV1GNx9e8EZV",
+          "duplicate_group_id": "dup-002",
+          "metadata": {
+            "bvid": "BV1GNx9e8EZV"
+          }
+        },
+        {
+          "id": "bilibili-2",
+          "platform": "bilibili",
+          "title": "【口腔课程】口腔组织病理学",
+          "url": "https://www.bilibili.com/cheese/play/ss462986844?query_from=0&search_id=12651053624724445115&search_query=%E7%89%99%E5%91%A8%E7%97%85%E7%97%85%E4%BE%8B%E6%B1%87%E6%8A%A5%E6%80%8E%E4%B9%88%E5%81%9A+%E6%95%99%E7%A8%8B",
+          "author": "安卓教育医学考试",
+          "published_at": 0,
+          "snippet": "",
+          "content_type": "video",
+          "engagement": {
+            "views": 267,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.83,
+          "evidence_level": "community",
+          "extraction_available": true,
+          "canonical_url": "https://bilibili.com/cheese/play/ss462986844?query_from=0&search_id=12651053624724445115&search_query=%E7%89%99%E5%91%A8%E7%97%85%E7%97%85%E4%BE%8B%E6%B1%87%E6%8A%A5%E6%80%8E%E4%B9%88%E5%81%9A+%E6%95%99%E7%A8%8B",
+          "duplicate_group_id": "dup-003",
+          "metadata": {
+            "bvid": ""
+          }
+        }
+      ]
+    },
+    "notes": []
+  },
+  {
+    "query": "医学生怎么高效使用 MarginNote",
+    "timestamp": "2026-09-19T07:59:58.004387+00:00",
+    "router": {
+      "intent": "medical_research",
+      "platforms": [
+        "web",
+        "exa",
+        "youtube",
+        "bilibili",
+        "zhihu"
+      ]
+    },
+    "baseline": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "partial",
+          "detail": "no indexed results"
+        }
+      ],
+      "raw_candidate_count": 0,
+      "deduped_count": 0,
+      "top_results": []
+    },
+    "multi_platform": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "exa",
+          "status": "unavailable",
+          "detail": "EXA_API_KEY is not configured"
+        },
+        {
+          "provider": "youtube",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "bilibili",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "zhihu",
+          "status": "partial",
+          "detail": "no indexed results"
+        }
+      ],
+      "raw_candidate_count": 0,
+      "deduped_count": 0,
+      "top_results": []
+    },
+    "notes": []
+  },
+  {
+    "query": "医学教材怎么做主动回忆",
+    "timestamp": "2026-09-19T08:00:10.279608+00:00",
+    "router": {
+      "intent": "medical_research",
+      "platforms": [
+        "web",
+        "exa",
+        "youtube",
+        "bilibili",
+        "zhihu"
+      ]
+    },
+    "baseline": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "partial",
+          "detail": "no indexed results"
+        }
+      ],
+      "raw_candidate_count": 0,
+      "deduped_count": 0,
+      "top_results": []
+    },
+    "multi_platform": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "exa",
+          "status": "unavailable",
+          "detail": "EXA_API_KEY is not configured"
+        },
+        {
+          "provider": "youtube",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "bilibili",
+          "status": "success",
+          "detail": null
+        },
+        {
+          "provider": "zhihu",
+          "status": "partial",
+          "detail": "no indexed results"
+        }
+      ],
+      "raw_candidate_count": 3,
+      "deduped_count": 3,
+      "top_results": [
+        {
+          "id": "bilibili-BV1yFaVzkEBm",
+          "platform": "bilibili",
+          "title": "准大一必看！大学教材省钱攻略~买什么书怎么买书便宜一个视频解决!",
+          "url": "https://www.bilibili.com/video/BV1yFaVzkEBm",
+          "author": "萧雨霁的保姆级攻略",
+          "published_at": 1756698300,
+          "snippet": "别人百元搞定教材，你却花几百？准大一新生必看的保姆级攻略来啦！学长实测 5 种购书渠道，帮你四年省出奶茶自由～\n学校官方购书省心但贵到肉痛？网购二手书如何避开盗版雷区？学长学姐的考点笔记怎么蹲？电子版教材真的靠谱吗？\n从正版保障到社恐福音，从避坑技巧到维权指南（强制买书可截图），全程干货无废话！附书单查询、错书退货等隐藏技巧。\n你的教材踩过哪些坑？评论区蹲课代表总结，关注下期解锁更多校园生存攻略～",
+          "content_type": "video",
+          "engagement": {
+            "views": 12841,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.93,
+          "evidence_level": "community",
+          "extraction_available": true,
+          "canonical_url": "https://bilibili.com/video/BV1yFaVzkEBm",
+          "duplicate_group_id": "dup-001",
+          "metadata": {
+            "bvid": "BV1yFaVzkEBm"
+          }
+        },
+        {
+          "id": "bilibili-BV1ua41147i9",
+          "platform": "bilibili",
+          "title": "【大学生攻略】买教材课本的经验和推荐！新生必看！沙雕学姐分享经验",
+          "url": "https://www.bilibili.com/video/BV1ua41147i9",
+          "author": "N2H4噗通咚",
+          "published_at": 1648374094,
+          "snippet": "后面还会发小语种，家教，报名学习机构，等等我的一些经验，还有小学妹找我咨询过的感情问题。如果有人看的话，几个视频总点赞啥时候过500啥时候发吧，狮子大开口了是。",
+          "content_type": "video",
+          "engagement": {
+            "views": 25815,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.88,
+          "evidence_level": "community",
+          "extraction_available": true,
+          "canonical_url": "https://bilibili.com/video/BV1ua41147i9",
+          "duplicate_group_id": "dup-002",
+          "metadata": {
+            "bvid": "BV1ua41147i9"
+          }
+        },
+        {
+          "id": "bilibili-BV1uV4y1i7An",
+          "platform": "bilibili",
+          "title": "大学二手教材购买",
+          "url": "https://www.bilibili.com/video/BV1uV4y1i7An",
+          "author": "反方向的_一路向北",
+          "published_at": 1690927882,
+          "snippet": "大学教材二手购买，可以通过淘宝或者拼多多等电商平台，也可以通过孔夫子旧书网。",
+          "content_type": "video",
+          "engagement": {
+            "views": 26468,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.83,
+          "evidence_level": "community",
+          "extraction_available": true,
+          "canonical_url": "https://bilibili.com/video/BV1uV4y1i7An",
+          "duplicate_group_id": "dup-003",
+          "metadata": {
+            "bvid": "BV1uV4y1i7An"
+          }
+        }
+      ]
+    },
+    "notes": []
+  },
+  {
+    "query": "Notion Agent 使用经验",
+    "timestamp": "2026-09-19T08:00:22.173495+00:00",
+    "router": {
+      "intent": "software_tutorial",
+      "platforms": [
+        "web",
+        "exa",
+        "youtube",
+        "bilibili",
+        "zhihu"
+      ]
+    },
+    "baseline": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "success",
+          "detail": null
+        }
+      ],
+      "raw_candidate_count": 3,
+      "deduped_count": 3,
+      "top_results": [
+        {
+          "id": "web-0",
+          "platform": "web",
+          "title": "The AI workspace that works for you. | Notion",
+          "url": "https://www.notion.com/",
+          "author": null,
+          "published_at": null,
+          "snippet": "Automate weekly reporting → Create your own developer tools → Trusted by teams that ship. Using the most AI-native tools like Notion is an important competitive advantage for us to stay small while doing a lot.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.85,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://notion.com/",
+          "duplicate_group_id": "dup-001",
+          "metadata": {}
+        },
+        {
+          "id": "web-1",
+          "platform": "web",
+          "title": "Notion - Log in",
+          "url": "https://app.notion.com/login",
+          "author": null,
+          "published_at": null,
+          "snippet": "A collaborative AI workspace, built on your company context. Build and orchestrate agents right alongside your team's projects, meetings, and connected apps.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.8,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://app.notion.com/login",
+          "duplicate_group_id": "dup-002",
+          "metadata": {}
+        },
+        {
+          "id": "web-2",
+          "platform": "web",
+          "title": "Download Notion for desktop",
+          "url": "https://www.notion.com/desktop",
+          "author": null,
+          "published_at": null,
+          "snippet": "A faster experience on Notion Desktop. Fast and minimal. Work without distractions.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.75,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://notion.com/desktop",
+          "duplicate_group_id": "dup-003",
+          "metadata": {}
+        }
+      ]
+    },
+    "multi_platform": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "success",
+          "detail": null
+        },
+        {
+          "provider": "exa",
+          "status": "unavailable",
+          "detail": "EXA_API_KEY is not configured"
+        },
+        {
+          "provider": "youtube",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "bilibili",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "zhihu",
+          "status": "partial",
+          "detail": "no indexed results"
+        }
+      ],
+      "raw_candidate_count": 3,
+      "deduped_count": 3,
+      "top_results": [
+        {
+          "id": "web-0",
+          "platform": "web",
+          "title": "The AI workspace that works for you. | Notion",
+          "url": "https://www.notion.com/",
+          "author": null,
+          "published_at": null,
+          "snippet": "Automate weekly reporting → Create your own developer tools → Trusted by teams that ship. Using the most AI-native tools like Notion is an important competitive advantage for us to stay small while doing a lot.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.85,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://notion.com/",
+          "duplicate_group_id": "dup-001",
+          "metadata": {}
+        },
+        {
+          "id": "web-1",
+          "platform": "web",
+          "title": "Notion - Log in",
+          "url": "https://app.notion.com/login",
+          "author": null,
+          "published_at": null,
+          "snippet": "A collaborative AI workspace, built on your company context. Build and orchestrate agents right alongside your team's projects, meetings, and connected apps.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.8,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://app.notion.com/login",
+          "duplicate_group_id": "dup-002",
+          "metadata": {}
+        },
+        {
+          "id": "web-2",
+          "platform": "web",
+          "title": "Download Notion for desktop",
+          "url": "https://www.notion.com/desktop",
+          "author": null,
+          "published_at": null,
+          "snippet": "A faster experience on Notion Desktop. Fast and minimal. Work without distractions.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.75,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://notion.com/desktop",
+          "duplicate_group_id": "dup-003",
+          "metadata": {}
+        }
+      ]
+    },
+    "notes": []
+  },
+  {
+    "query": "Codex workflow",
+    "timestamp": "2026-09-19T08:00:29.042770+00:00",
+    "router": {
+      "intent": "software_tutorial",
+      "platforms": [
+        "web",
+        "exa",
+        "youtube",
+        "bilibili",
+        "zhihu"
+      ]
+    },
+    "baseline": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "success",
+          "detail": null
+        }
+      ],
+      "raw_candidate_count": 3,
+      "deduped_count": 3,
+      "top_results": [
+        {
+          "id": "web-0",
+          "platform": "web",
+          "title": "Codex | AI Coding Partner from OpenAI",
+          "url": "https://openai.com/codex/",
+          "author": null,
+          "published_at": null,
+          "snippet": "From routine pull requests to your hardest problems, Codex reliably completes tasks end to end, like building features, complex refactors, migrations, and more, powered by OpenAI’s frontier coding models.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.85,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://openai.com/codex",
+          "duplicate_group_id": "dup-001",
+          "metadata": {}
+        },
+        {
+          "id": "web-1",
+          "platform": "web",
+          "title": "OpenAI Codex",
+          "url": "https://openai.com/index/openai-codex/",
+          "author": null,
+          "published_at": null,
+          "snippet": "We’ve created an improved version of OpenAI Codex, our AI system that translates natural language to code, and we are releasing it through our API in private beta starting today.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.8,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://openai.com/index/openai-codex",
+          "duplicate_group_id": "dup-002",
+          "metadata": {}
+        },
+        {
+          "id": "web-2",
+          "platform": "web",
+          "title": "CODEX – Codex",
+          "url": "https://www.codex.com/codex/",
+          "author": null,
+          "published_at": null,
+          "snippet": "We selected the name “Codex” as Leonardo da Vinci was the embodiment of the Renaissance ideal. His “Codex”, or notebooks, are a testament to his interest in a multitude of subjects and to visionary ideas which were centuries ahead of their time. Codex’s mission is to evoke a similar spirit of enlightenment by inspiring technology ...",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.75,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://codex.com/codex",
+          "duplicate_group_id": "dup-003",
+          "metadata": {}
+        }
+      ]
+    },
+    "multi_platform": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "success",
+          "detail": null
+        },
+        {
+          "provider": "exa",
+          "status": "unavailable",
+          "detail": "EXA_API_KEY is not configured"
+        },
+        {
+          "provider": "youtube",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "bilibili",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "zhihu",
+          "status": "partial",
+          "detail": "no indexed results"
+        }
+      ],
+      "raw_candidate_count": 3,
+      "deduped_count": 3,
+      "top_results": [
+        {
+          "id": "web-0",
+          "platform": "web",
+          "title": "Codex | AI Coding Partner from OpenAI",
+          "url": "https://openai.com/codex/",
+          "author": null,
+          "published_at": null,
+          "snippet": "From routine pull requests to your hardest problems, Codex reliably completes tasks end to end, like building features, complex refactors, migrations, and more, powered by OpenAI’s frontier coding models.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.85,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://openai.com/codex",
+          "duplicate_group_id": "dup-001",
+          "metadata": {}
+        },
+        {
+          "id": "web-1",
+          "platform": "web",
+          "title": "OpenAI Codex",
+          "url": "https://openai.com/index/openai-codex/",
+          "author": null,
+          "published_at": null,
+          "snippet": "We’ve created an improved version of OpenAI Codex, our AI system that translates natural language to code, and we are releasing it through our API in private beta starting today.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.8,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://openai.com/index/openai-codex",
+          "duplicate_group_id": "dup-002",
+          "metadata": {}
+        },
+        {
+          "id": "web-2",
+          "platform": "web",
+          "title": "CODEX – Codex",
+          "url": "https://www.codex.com/codex/",
+          "author": null,
+          "published_at": null,
+          "snippet": "We selected the name “Codex” as Leonardo da Vinci was the embodiment of the Renaissance ideal. His “Codex”, or notebooks, are a testament to his interest in a multitude of subjects and to visionary ideas which were centuries ahead of their time. Codex’s mission is to evoke a similar spirit of enlightenment by inspiring technology ...",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.75,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://codex.com/codex",
+          "duplicate_group_id": "dup-003",
+          "metadata": {}
+        }
+      ]
+    },
+    "notes": []
+  },
+  {
+    "query": "ChatGPT 学术研究工作流",
+    "timestamp": "2026-09-19T08:00:34.741960+00:00",
+    "router": {
+      "intent": "general",
+      "platforms": [
+        "web",
+        "youtube",
+        "bilibili",
+        "zhihu"
+      ]
+    },
+    "baseline": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "success",
+          "detail": null
+        }
+      ],
+      "raw_candidate_count": 3,
+      "deduped_count": 3,
+      "top_results": [
+        {
+          "id": "web-0",
+          "platform": "web",
+          "title": "ChatGPT: Chat, Work, Create & Code with AI",
+          "url": "https://chatgpt.com/",
+          "author": null,
+          "published_at": null,
+          "snippet": "Use ChatGPT to answer questions, write, create images, complete work, and code—all in one place. Get started for free or download the app.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.85,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://chatgpt.com/",
+          "duplicate_group_id": "dup-001",
+          "metadata": {}
+        },
+        {
+          "id": "web-1",
+          "platform": "web",
+          "title": "ChatGPT",
+          "url": "https://chatgpt.com/features",
+          "author": null,
+          "published_at": null,
+          "snippet": "Use ChatGPT to answer questions, write, create images, complete work, and code—all in one place. Get started for free or download the app.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.8,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://chatgpt.com/features",
+          "duplicate_group_id": "dup-002",
+          "metadata": {}
+        },
+        {
+          "id": "web-2",
+          "platform": "web",
+          "title": "Introducing ChatGPT - OpenAI",
+          "url": "https://openai.com/index/chatgpt/",
+          "author": null,
+          "published_at": null,
+          "snippet": "ChatGPT has evolved substantially since then. We’ve trained a model called ChatGPT which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes, challenge incorrect premises, and reject inappropriate requests.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.75,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://openai.com/index/chatgpt",
+          "duplicate_group_id": "dup-003",
+          "metadata": {}
+        }
+      ]
+    },
+    "multi_platform": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "success",
+          "detail": null
+        },
+        {
+          "provider": "youtube",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "bilibili",
+          "status": "success",
+          "detail": null
+        },
+        {
+          "provider": "zhihu",
+          "status": "partial",
+          "detail": "no indexed results"
+        }
+      ],
+      "raw_candidate_count": 6,
+      "deduped_count": 6,
+      "top_results": [
+        {
+          "id": "bilibili-BV1Ypbs6vEuJ",
+          "platform": "bilibili",
+          "title": "全程无废话！从零用上chatGPT6！保姆级安装/注册/使用ChatGPT+Codex最详细保姆级教程",
+          "url": "https://www.bilibili.com/video/BV1Ypbs6vEuJ",
+          "author": "Gemini3-",
+          "published_at": 1788692079,
+          "snippet": "你好审核大人，改下简介",
+          "content_type": "video",
+          "engagement": {
+            "views": 345546,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.93,
+          "evidence_level": "community",
+          "extraction_available": true,
+          "canonical_url": "https://bilibili.com/video/BV1Ypbs6vEuJ",
+          "duplicate_group_id": "dup-004",
+          "metadata": {
+            "bvid": "BV1Ypbs6vEuJ"
+          }
+        },
+        {
+          "id": "bilibili-BV1q9ey6CEh3",
+          "platform": "bilibili",
+          "title": "Selected model is at capacity | ChatGPT / Codex “模型超容量”？我也踩坑了，这是我的实测恢复过程",
+          "url": "https://www.bilibili.com/video/BV1q9ey6CEh3",
+          "author": "深秋书吧",
+          "published_at": 1789719964,
+          "snippet": "Selected model is at capacity | ChatGPT / Codex “模型超容量”？我也踩坑了，这是我的实测恢复过程\n这两天不少人在使用 ChatGPT 或 Codex 时，遇到了“所选模型已超容量”、模型无法正常使用等问题。\n我自己昨晚也踩到了这个坑。\n当时我尝试退出电脑网页端、手机端和桌面客户端上的全部登录，隔了一晚后重新登录，账号已经恢复正常，我也在视频里重新做了实际测试。\n所以这期不是网上搜来的“万能教程”，而是把我自己从遇到问题，到尝试处理，再到恢复正常的完整过程记录",
+          "content_type": "video",
+          "engagement": {
+            "views": 120,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.88,
+          "evidence_level": "community",
+          "extraction_available": true,
+          "canonical_url": "https://bilibili.com/video/BV1q9ey6CEh3",
+          "duplicate_group_id": "dup-005",
+          "metadata": {
+            "bvid": "BV1q9ey6CEh3"
+          }
+        },
+        {
+          "id": "web-0",
+          "platform": "web",
+          "title": "ChatGPT: Chat, Work, Create & Code with AI",
+          "url": "https://chatgpt.com/",
+          "author": null,
+          "published_at": null,
+          "snippet": "Use ChatGPT to answer questions, write, create images, complete work, and code—all in one place. Get started for free or download the app.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.85,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://chatgpt.com/",
+          "duplicate_group_id": "dup-001",
+          "metadata": {}
+        },
+        {
+          "id": "bilibili-2",
+          "platform": "bilibili",
+          "title": "零基础精通学术智能体搭建：从科研论文到课题申报",
+          "url": "https://www.bilibili.com/cheese/play/ss770151051?query_from=0&search_id=5150979189339362682&search_query=ChatGPT+%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6%E5%B7%A5%E4%BD%9C%E6%B5%81",
+          "author": "图情充电站",
+          "published_at": 0,
+          "snippet": "",
+          "content_type": "video",
+          "engagement": {
+            "views": 7128,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.83,
+          "evidence_level": "community",
+          "extraction_available": true,
+          "canonical_url": "https://bilibili.com/cheese/play/ss770151051?query_from=0&search_id=5150979189339362682&search_query=ChatGPT+%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6%E5%B7%A5%E4%BD%9C%E6%B5%81",
+          "duplicate_group_id": "dup-006",
+          "metadata": {
+            "bvid": ""
+          }
+        },
+        {
+          "id": "web-1",
+          "platform": "web",
+          "title": "ChatGPT",
+          "url": "https://chatgpt.com/features",
+          "author": null,
+          "published_at": null,
+          "snippet": "Use ChatGPT to answer questions, write, create images, complete work, and code—all in one place. Get started for free or download the app.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.8,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://chatgpt.com/features",
+          "duplicate_group_id": "dup-002",
+          "metadata": {}
+        }
+      ]
+    },
+    "notes": []
+  },
+  {
+    "query": "AI coding agent 实际使用体验",
+    "timestamp": "2026-09-19T08:00:43.035895+00:00",
+    "router": {
+      "intent": "software_tutorial",
+      "platforms": [
+        "web",
+        "exa",
+        "youtube",
+        "bilibili",
+        "zhihu"
+      ]
+    },
+    "baseline": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "partial",
+          "detail": "no indexed results"
+        }
+      ],
+      "raw_candidate_count": 0,
+      "deduped_count": 0,
+      "top_results": []
+    },
+    "multi_platform": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "exa",
+          "status": "unavailable",
+          "detail": "EXA_API_KEY is not configured"
+        },
+        {
+          "provider": "youtube",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "bilibili",
+          "status": "success",
+          "detail": null
+        },
+        {
+          "provider": "zhihu",
+          "status": "partial",
+          "detail": "no indexed results"
+        }
+      ],
+      "raw_candidate_count": 3,
+      "deduped_count": 3,
+      "top_results": [
+        {
+          "id": "bilibili-BV11NNAz5EKn",
+          "platform": "bilibili",
+          "title": "【2026最新】B站最全最细的AI Agent智能体搭建教程，从入门到实战！手把手教你快速打造自己的专属智能体，一次性搞懂AI大模型智能体开发，学完薪资翻倍！",
+          "url": "https://www.bilibili.com/video/BV11NNAz5EKn",
+          "author": "AI-智能体搭建教程",
+          "published_at": 1772882919,
+          "snippet": "【2026最新】B站最全最细的AI Agent智能体搭建教程，从入门到实战！手把手教你快速打造自己的专属智能体，一次性搞懂AI大模型智能体开发，学完薪资翻倍！",
+          "content_type": "video",
+          "engagement": {
+            "views": 1242531,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.93,
+          "evidence_level": "community",
+          "extraction_available": true,
+          "canonical_url": "https://bilibili.com/video/BV11NNAz5EKn",
+          "duplicate_group_id": "dup-001",
+          "metadata": {
+            "bvid": "BV11NNAz5EKn"
+          }
+        },
+        {
+          "id": "bilibili-BV16mtN6XE3p",
+          "platform": "bilibili",
+          "title": "AI Coding笔试经验分享｜27届秋招 大厂 笔试",
+          "url": "https://www.bilibili.com/video/BV16mtN6XE3p",
+          "author": "Ceceliaovo",
+          "published_at": 1787923170,
+          "snippet": "我的个人AI Coding笔试经验分享和复盘。",
+          "content_type": "video",
+          "engagement": {
+            "views": 13399,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.88,
+          "evidence_level": "community",
+          "extraction_available": true,
+          "canonical_url": "https://bilibili.com/video/BV16mtN6XE3p",
+          "duplicate_group_id": "dup-002",
+          "metadata": {
+            "bvid": "BV16mtN6XE3p"
+          }
+        },
+        {
+          "id": "bilibili-2",
+          "platform": "bilibili",
+          "title": "Agent开发工程师训练营",
+          "url": "https://www.bilibili.com/cheese/play/ss683636153?query_from=0&search_id=3625944932723452199&search_query=AI+coding+agent+%E5%AE%9E%E9%99%85%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C+%E6%95%99%E7%A8%8B",
+          "author": "西瓜讲大模型",
+          "published_at": 0,
+          "snippet": "",
+          "content_type": "video",
+          "engagement": {
+            "views": 6494,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.83,
+          "evidence_level": "community",
+          "extraction_available": true,
+          "canonical_url": "https://bilibili.com/cheese/play/ss683636153?query_from=0&search_id=3625944932723452199&search_query=AI+coding+agent+%E5%AE%9E%E9%99%85%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C+%E6%95%99%E7%A8%8B",
+          "duplicate_group_id": "dup-003",
+          "metadata": {
+            "bvid": ""
+          }
+        }
+      ]
+    },
+    "notes": []
+  },
+  {
+    "query": "Notion 和 Obsidian 医学生怎么选",
+    "timestamp": "2026-09-19T08:00:56.977219+00:00",
+    "router": {
+      "intent": "medical_research",
+      "platforms": [
+        "web",
+        "exa",
+        "youtube",
+        "bilibili",
+        "zhihu"
+      ]
+    },
+    "baseline": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "success",
+          "detail": null
+        }
+      ],
+      "raw_candidate_count": 3,
+      "deduped_count": 3,
+      "top_results": [
+        {
+          "id": "web-0",
+          "platform": "web",
+          "title": "The AI workspace that works for you. | Notion",
+          "url": "https://www.notion.com/",
+          "author": null,
+          "published_at": null,
+          "snippet": "Automate weekly reporting → Create your own developer tools → Trusted by teams that ship. Using the most AI-native tools like Notion is an important competitive advantage for us to stay small while doing a lot.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.85,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://notion.com/",
+          "duplicate_group_id": "dup-001",
+          "metadata": {}
+        },
+        {
+          "id": "web-1",
+          "platform": "web",
+          "title": "Notion - Log in",
+          "url": "https://app.notion.com/login",
+          "author": null,
+          "published_at": null,
+          "snippet": "A collaborative AI workspace, built on your company context. Build and orchestrate agents right alongside your team's projects, meetings, and connected apps.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.8,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://app.notion.com/login",
+          "duplicate_group_id": "dup-002",
+          "metadata": {}
+        },
+        {
+          "id": "web-2",
+          "platform": "web",
+          "title": "Download Notion for desktop",
+          "url": "https://www.notion.com/desktop",
+          "author": null,
+          "published_at": null,
+          "snippet": "A faster experience on Notion Desktop. Fast and minimal. Work without distractions.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.75,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://notion.com/desktop",
+          "duplicate_group_id": "dup-003",
+          "metadata": {}
+        }
+      ]
+    },
+    "multi_platform": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "success",
+          "detail": null
+        },
+        {
+          "provider": "exa",
+          "status": "unavailable",
+          "detail": "EXA_API_KEY is not configured"
+        },
+        {
+          "provider": "youtube",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "bilibili",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "zhihu",
+          "status": "partial",
+          "detail": "no indexed results"
+        }
+      ],
+      "raw_candidate_count": 3,
+      "deduped_count": 3,
+      "top_results": [
+        {
+          "id": "web-0",
+          "platform": "web",
+          "title": "The AI workspace that works for you. | Notion",
+          "url": "https://www.notion.com/",
+          "author": null,
+          "published_at": null,
+          "snippet": "Automate weekly reporting → Create your own developer tools → Trusted by teams that ship. Using the most AI-native tools like Notion is an important competitive advantage for us to stay small while doing a lot.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.85,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://notion.com/",
+          "duplicate_group_id": "dup-001",
+          "metadata": {}
+        },
+        {
+          "id": "web-1",
+          "platform": "web",
+          "title": "Notion - Log in",
+          "url": "https://app.notion.com/login",
+          "author": null,
+          "published_at": null,
+          "snippet": "A collaborative AI workspace, built on your company context. Build and orchestrate agents right alongside your team's projects, meetings, and connected apps.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.8,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://app.notion.com/login",
+          "duplicate_group_id": "dup-002",
+          "metadata": {}
+        },
+        {
+          "id": "web-2",
+          "platform": "web",
+          "title": "Download Notion for desktop",
+          "url": "https://www.notion.com/desktop",
+          "author": null,
+          "published_at": null,
+          "snippet": "A faster experience on Notion Desktop. Fast and minimal. Work without distractions.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.75,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://notion.com/desktop",
+          "duplicate_group_id": "dup-003",
+          "metadata": {}
+        }
+      ]
+    },
+    "notes": []
+  },
+  {
+    "query": "iPhone 17 Pro 长期使用体验",
+    "timestamp": "2026-09-19T08:01:07.862848+00:00",
+    "router": {
+      "intent": "review",
+      "platforms": [
+        "bilibili",
+        "youtube",
+        "zhihu",
+        "xiaohongshu",
+        "web"
+      ]
+    },
+    "baseline": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "success",
+          "detail": null
+        }
+      ],
+      "raw_candidate_count": 3,
+      "deduped_count": 3,
+      "top_results": [
+        {
+          "id": "web-0",
+          "platform": "web",
+          "title": "iPhone - Apple",
+          "url": "https://www.apple.com/iphone/",
+          "author": null,
+          "published_at": null,
+          "snippet": "iPhone has evolved to include the first foldable iPhone with a dual display system. When open, iPhone Duo features the largest, thinnest iPhone display ever. iPhone 18 Pro brings a new level of power and performance — plus durability with its aluminum unibody construction.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.85,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://apple.com/iphone",
+          "duplicate_group_id": "dup-001",
+          "metadata": {}
+        },
+        {
+          "id": "web-1",
+          "platform": "web",
+          "title": "Buy iPhone - Apple",
+          "url": "https://www.apple.com/shop/buy-iphone",
+          "author": null,
+          "published_at": null,
+          "snippet": "Shop the latest iPhone models and accessories. Save with Apple Trade In, carrier offers, and flexible monthly payment options. Get expert help today.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.8,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://apple.com/shop/buy-iphone",
+          "duplicate_group_id": "dup-002",
+          "metadata": {}
+        },
+        {
+          "id": "web-2",
+          "platform": "web",
+          "title": "iPhone: New Apple iPhones & Accessories - Best Buy",
+          "url": "https://www.bestbuy.com/site/mobile-cell-phones/iphone/pcmcat305200050000.c?id=pcmcat305200050000",
+          "author": null,
+          "published_at": null,
+          "snippet": "Shop Best Buy for the latest Apple iPhone and accessories. Check out the newest iPhone or other popular iPhone models.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.75,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://bestbuy.com/site/mobile-cell-phones/iphone/pcmcat305200050000.c?id=pcmcat305200050000",
+          "duplicate_group_id": "dup-003",
+          "metadata": {}
+        }
+      ]
+    },
+    "multi_platform": {
+      "provider_status": [
+        {
+          "provider": "bilibili",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "youtube",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "zhihu",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "xiaohongshu",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "web",
+          "status": "success",
+          "detail": null
+        }
+      ],
+      "raw_candidate_count": 3,
+      "deduped_count": 3,
+      "top_results": [
+        {
+          "id": "web-0",
+          "platform": "web",
+          "title": "iPhone - Apple",
+          "url": "https://www.apple.com/iphone/",
+          "author": null,
+          "published_at": null,
+          "snippet": "iPhone has evolved to include the first foldable iPhone with a dual display system. When open, iPhone Duo features the largest, thinnest iPhone display ever. iPhone 18 Pro brings a new level of power and performance — plus durability with its aluminum unibody construction.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.85,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://apple.com/iphone",
+          "duplicate_group_id": "dup-001",
+          "metadata": {}
+        },
+        {
+          "id": "web-1",
+          "platform": "web",
+          "title": "Buy iPhone - Apple",
+          "url": "https://www.apple.com/shop/buy-iphone",
+          "author": null,
+          "published_at": null,
+          "snippet": "Shop the latest iPhone models and accessories. Save with Apple Trade In, carrier offers, and flexible monthly payment options. Get expert help today.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.8,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://apple.com/shop/buy-iphone",
+          "duplicate_group_id": "dup-002",
+          "metadata": {}
+        },
+        {
+          "id": "web-2",
+          "platform": "web",
+          "title": "iPhone: New Apple iPhones & Accessories - Best Buy",
+          "url": "https://www.bestbuy.com/site/mobile-cell-phones/iphone/pcmcat305200050000.c?id=pcmcat305200050000",
+          "author": null,
+          "published_at": null,
+          "snippet": "Shop Best Buy for the latest Apple iPhone and accessories. Check out the newest iPhone or other popular iPhone models.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.75,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://bestbuy.com/site/mobile-cell-phones/iphone/pcmcat305200050000.c?id=pcmcat305200050000",
+          "duplicate_group_id": "dup-003",
+          "metadata": {}
+        }
+      ]
+    },
+    "notes": []
+  },
+  {
+    "query": "大学生冬季跑步怎么穿",
+    "timestamp": "2026-09-19T08:01:15.976228+00:00",
+    "router": {
+      "intent": "lifestyle",
+      "platforms": [
+        "xiaohongshu",
+        "zhihu",
+        "bilibili",
+        "youtube",
+        "web"
+      ]
+    },
+    "baseline": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "partial",
+          "detail": "no indexed results"
+        }
+      ],
+      "raw_candidate_count": 0,
+      "deduped_count": 0,
+      "top_results": []
+    },
+    "multi_platform": {
+      "provider_status": [
+        {
+          "provider": "xiaohongshu",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "zhihu",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "bilibili",
+          "status": "success",
+          "detail": null
+        },
+        {
+          "provider": "youtube",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "web",
+          "status": "partial",
+          "detail": "no indexed results"
+        }
+      ],
+      "raw_candidate_count": 3,
+      "deduped_count": 3,
+      "top_results": [
+        {
+          "id": "bilibili-BV1s94y1x7oX",
+          "platform": "bilibili",
+          "title": "好穿不贵｜『保姆级」秋冬跑步装备推荐-袜子篇",
+          "url": "https://www.bilibili.com/video/BV1s94y1x7oX",
+          "author": "跑不快的吴二",
+          "published_at": 1694089800,
+          "snippet": "",
+          "content_type": "video",
+          "engagement": {
+            "views": 40474,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.93,
+          "evidence_level": "community",
+          "extraction_available": true,
+          "canonical_url": "https://bilibili.com/video/BV1s94y1x7oX",
+          "duplicate_group_id": "dup-001",
+          "metadata": {
+            "bvid": "BV1s94y1x7oX"
+          }
+        },
+        {
+          "id": "bilibili-BV1fP41177T6",
+          "platform": "bilibili",
+          "title": "Vlog-143 冬天跑步怎么穿｜江浙沪版｜杭州冬天跑步怎么穿",
+          "url": "https://www.bilibili.com/video/BV1fP41177T6",
+          "author": "尧言乱语",
+          "published_at": 1665676160,
+          "snippet": "-",
+          "content_type": "video",
+          "engagement": {
+            "views": 4769,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.88,
+          "evidence_level": "community",
+          "extraction_available": true,
+          "canonical_url": "https://bilibili.com/video/BV1fP41177T6",
+          "duplicate_group_id": "dup-002",
+          "metadata": {
+            "bvid": "BV1fP41177T6"
+          }
+        },
+        {
+          "id": "bilibili-BV1fLkSBCE28",
+          "platform": "bilibili",
+          "title": "你得先明确冬天怎么跑，才能知道冬天选啥鞋",
+          "url": "https://www.bilibili.com/video/BV1fLkSBCE28",
+          "author": "跑溜子洛飞",
+          "published_at": 1762660953,
+          "snippet": "",
+          "content_type": "video",
+          "engagement": {
+            "views": 10356,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.83,
+          "evidence_level": "community",
+          "extraction_available": true,
+          "canonical_url": "https://bilibili.com/video/BV1fLkSBCE28",
+          "duplicate_group_id": "dup-003",
+          "metadata": {
+            "bvid": "BV1fLkSBCE28"
+          }
+        }
+      ]
+    },
+    "notes": []
+  },
+  {
+    "query": "大学生宿舍健身经验",
+    "timestamp": "2026-09-19T08:01:38.408402+00:00",
+    "router": {
+      "intent": "lifestyle",
+      "platforms": [
+        "xiaohongshu",
+        "zhihu",
+        "bilibili",
+        "youtube",
+        "web"
+      ]
+    },
+    "baseline": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "partial",
+          "detail": "no indexed results"
+        }
+      ],
+      "raw_candidate_count": 0,
+      "deduped_count": 0,
+      "top_results": []
+    },
+    "multi_platform": {
+      "provider_status": [
+        {
+          "provider": "xiaohongshu",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "zhihu",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "bilibili",
+          "status": "unavailable",
+          "detail": "The read operation timed out"
+        },
+        {
+          "provider": "youtube",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "web",
+          "status": "partial",
+          "detail": "no indexed results"
+        }
+      ],
+      "raw_candidate_count": 0,
+      "deduped_count": 0,
+      "top_results": []
+    },
+    "notes": []
+  },
+  {
+    "query": "学生党高性价比降噪耳机",
+    "timestamp": "2026-09-19T08:02:03.801686+00:00",
+    "router": {
+      "intent": "general",
+      "platforms": [
+        "web",
+        "youtube",
+        "bilibili",
+        "zhihu"
+      ]
+    },
+    "baseline": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "unavailable",
+          "detail": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+        }
+      ],
+      "raw_candidate_count": 0,
+      "deduped_count": 0,
+      "top_results": []
+    },
+    "multi_platform": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "youtube",
+          "status": "unavailable",
+          "detail": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+        },
+        {
+          "provider": "bilibili",
+          "status": "unavailable",
+          "detail": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+        },
+        {
+          "provider": "zhihu",
+          "status": "unavailable",
+          "detail": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+        }
+      ],
+      "raw_candidate_count": 0,
+      "deduped_count": 0,
+      "top_results": []
+    },
+    "notes": []
+  },
+  {
+    "query": "B站计算机二级 Excel 教程",
+    "timestamp": "2026-09-19T08:02:18.858181+00:00",
+    "router": {
+      "intent": "software_tutorial",
+      "platforms": [
+        "web",
+        "exa",
+        "youtube",
+        "bilibili",
+        "zhihu"
+      ]
+    },
+    "baseline": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "unavailable",
+          "detail": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+        }
+      ],
+      "raw_candidate_count": 0,
+      "deduped_count": 0,
+      "top_results": []
+    },
+    "multi_platform": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "unavailable",
+          "detail": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+        },
+        {
+          "provider": "exa",
+          "status": "unavailable",
+          "detail": "EXA_API_KEY is not configured"
+        },
+        {
+          "provider": "youtube",
+          "status": "unavailable",
+          "detail": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+        },
+        {
+          "provider": "bilibili",
+          "status": "unavailable",
+          "detail": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+        },
+        {
+          "provider": "zhihu",
+          "status": "unavailable",
+          "detail": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+        }
+      ],
+      "raw_candidate_count": 0,
+      "deduped_count": 0,
+      "top_results": []
+    },
+    "notes": []
+  },
+  {
+    "query": "知乎医学生科研经验",
+    "timestamp": "2026-09-19T08:02:33.930882+00:00",
+    "router": {
+      "intent": "medical_research",
+      "platforms": [
+        "web",
+        "exa",
+        "youtube",
+        "bilibili",
+        "zhihu"
+      ]
+    },
+    "baseline": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "unavailable",
+          "detail": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+        }
+      ],
+      "raw_candidate_count": 0,
+      "deduped_count": 0,
+      "top_results": []
+    },
+    "multi_platform": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "unavailable",
+          "detail": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+        },
+        {
+          "provider": "exa",
+          "status": "unavailable",
+          "detail": "EXA_API_KEY is not configured"
+        },
+        {
+          "provider": "youtube",
+          "status": "unavailable",
+          "detail": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+        },
+        {
+          "provider": "bilibili",
+          "status": "unavailable",
+          "detail": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+        },
+        {
+          "provider": "zhihu",
+          "status": "unavailable",
+          "detail": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+        }
+      ],
+      "raw_candidate_count": 0,
+      "deduped_count": 0,
+      "top_results": []
+    },
+    "notes": []
+  },
+  {
+    "query": "小红书医学生文献管理",
+    "timestamp": "2026-09-19T08:02:49.915569+00:00",
+    "router": {
+      "intent": "medical_research",
+      "platforms": [
+        "web",
+        "exa",
+        "youtube",
+        "bilibili",
+        "zhihu"
+      ]
+    },
+    "baseline": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "unavailable",
+          "detail": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+        }
+      ],
+      "raw_candidate_count": 0,
+      "deduped_count": 0,
+      "top_results": []
+    },
+    "multi_platform": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "unavailable",
+          "detail": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+        },
+        {
+          "provider": "exa",
+          "status": "unavailable",
+          "detail": "EXA_API_KEY is not configured"
+        },
+        {
+          "provider": "youtube",
+          "status": "unavailable",
+          "detail": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+        },
+        {
+          "provider": "bilibili",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "zhihu",
+          "status": "unavailable",
+          "detail": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+        }
+      ],
+      "raw_candidate_count": 0,
+      "deduped_count": 0,
+      "top_results": []
+    },
+    "notes": []
+  },
+  {
+    "query": "YouTube Zotero medical student workflow",
+    "timestamp": "2026-09-19T08:03:01.735848+00:00",
+    "router": {
+      "intent": "medical_research",
+      "platforms": [
+        "web",
+        "exa",
+        "youtube",
+        "bilibili",
+        "zhihu"
+      ]
+    },
+    "baseline": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "success",
+          "detail": null
+        }
+      ],
+      "raw_candidate_count": 3,
+      "deduped_count": 3,
+      "top_results": [
+        {
+          "id": "web-0",
+          "platform": "web",
+          "title": "YouTube",
+          "url": "https://www.youtube.com/",
+          "author": null,
+          "published_at": null,
+          "snippet": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.85,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://youtube.com/",
+          "duplicate_group_id": "dup-001",
+          "metadata": {}
+        },
+        {
+          "id": "web-1",
+          "platform": "web",
+          "title": "YouTube - YouTube",
+          "url": "https://www.youtube.com/youtube",
+          "author": null,
+          "published_at": null,
+          "snippet": "Welcome to the official YouTube channel – a home for the biggest moments, the smallest obsessions, and everything in between. Whatever you're into, it's on @YouTube.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.8,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://youtube.com/youtube",
+          "duplicate_group_id": "dup-002",
+          "metadata": {}
+        },
+        {
+          "id": "web-2",
+          "platform": "web",
+          "title": "YouTube Music",
+          "url": "https://music.youtube.com/",
+          "author": null,
+          "published_at": null,
+          "snippet": "With the YouTube Music app, enjoy over 100 million songs at your fingertips, plus albums, playlists, remixes, music videos, live performances, covers, and hard-to-find music you can’t get...",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.75,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://music.youtube.com/",
+          "duplicate_group_id": "dup-003",
+          "metadata": {}
+        }
+      ]
+    },
+    "multi_platform": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "success",
+          "detail": null
+        },
+        {
+          "provider": "exa",
+          "status": "unavailable",
+          "detail": "EXA_API_KEY is not configured"
+        },
+        {
+          "provider": "youtube",
+          "status": "success",
+          "detail": null
+        },
+        {
+          "provider": "bilibili",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "zhihu",
+          "status": "partial",
+          "detail": "no indexed results"
+        }
+      ],
+      "raw_candidate_count": 3,
+      "deduped_count": 3,
+      "top_results": [
+        {
+          "id": "web-0",
+          "platform": "web",
+          "title": "YouTube",
+          "url": "https://www.youtube.com/",
+          "author": null,
+          "published_at": null,
+          "snippet": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.85,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://youtube.com/",
+          "duplicate_group_id": "dup-001",
+          "metadata": {}
+        },
+        {
+          "id": "web-1",
+          "platform": "web",
+          "title": "YouTube - YouTube",
+          "url": "https://www.youtube.com/youtube",
+          "author": null,
+          "published_at": null,
+          "snippet": "Welcome to the official YouTube channel – a home for the biggest moments, the smallest obsessions, and everything in between. Whatever you're into, it's on @YouTube.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.8,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://youtube.com/youtube",
+          "duplicate_group_id": "dup-002",
+          "metadata": {}
+        },
+        {
+          "id": "web-2",
+          "platform": "web",
+          "title": "YouTube Music",
+          "url": "https://music.youtube.com/",
+          "author": null,
+          "published_at": null,
+          "snippet": "With the YouTube Music app, enjoy over 100 million songs at your fingertips, plus albums, playlists, remixes, music videos, live performances, covers, and hard-to-find music you can’t get...",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.75,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://music.youtube.com/",
+          "duplicate_group_id": "dup-003",
+          "metadata": {}
+        }
+      ]
+    },
+    "notes": []
+  },
+  {
+    "query": "青岛周末适合学习的安静地方",
+    "timestamp": "2026-09-19T08:03:11.318586+00:00",
+    "router": {
+      "intent": "local_travel",
+      "platforms": [
+        "xiaohongshu",
+        "bilibili",
+        "web",
+        "youtube",
+        "zhihu"
+      ]
+    },
+    "baseline": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "partial",
+          "detail": "no indexed results"
+        }
+      ],
+      "raw_candidate_count": 0,
+      "deduped_count": 0,
+      "top_results": []
+    },
+    "multi_platform": {
+      "provider_status": [
+        {
+          "provider": "xiaohongshu",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "bilibili",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "web",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "youtube",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "zhihu",
+          "status": "partial",
+          "detail": "no indexed results"
+        }
+      ],
+      "raw_candidate_count": 0,
+      "deduped_count": 0,
+      "top_results": []
+    },
+    "notes": []
+  },
+  {
+    "query": "MarginNote 医学生使用经验",
+    "timestamp": "2026-09-19T08:03:22.329507+00:00",
+    "router": {
+      "intent": "medical_research",
+      "platforms": [
+        "web",
+        "exa",
+        "youtube",
+        "bilibili",
+        "zhihu"
+      ]
+    },
+    "baseline": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "success",
+          "detail": null
+        }
+      ],
+      "raw_candidate_count": 3,
+      "deduped_count": 3,
+      "top_results": [
+        {
+          "id": "web-0",
+          "platform": "web",
+          "title": "MarginNote · Where deep reading leaves a trace",
+          "url": "https://www.marginnote.com/",
+          "author": null,
+          "published_at": null,
+          "snippet": "Where deep reading leaves a trace. Books you read should still be useful later. MarginNote keeps highlights, mind-map notes, and flashcards in one study set, so you can find what you marked when you need it.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.85,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://marginnote.com/",
+          "duplicate_group_id": "dup-001",
+          "metadata": {}
+        },
+        {
+          "id": "web-1",
+          "platform": "web",
+          "title": "MarginNote · 让学习留下思考的痕迹",
+          "url": "https://www.marginnote.com.cn/",
+          "author": null,
+          "published_at": null,
+          "snippet": "MarginNote 4：在 PDF 上做高亮 → 自动成卡 → 在脑图里整理 → FSRS 间隔复习。 13 年迭代（自 MN1 2013 起），App Store 18.8 万评分。 适合医学、考研、科研、律师阅卷等需要长期回看学习资料的场景。",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.8,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://marginnote.com.cn/",
+          "duplicate_group_id": "dup-002",
+          "metadata": {}
+        },
+        {
+          "id": "web-2",
+          "platform": "web",
+          "title": "MarginNote 中文社区 - 倍化效率，分享经验，传播爱书者的精神",
+          "url": "https://bbs.marginnote.com.cn/",
+          "author": null,
+          "published_at": null,
+          "snippet": "MarginNote 中文社区 阅读笔记软件MarginNote——产品用户反馈社区 京ICP备17035497号-1",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.75,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://bbs.marginnote.com.cn/",
+          "duplicate_group_id": "dup-003",
+          "metadata": {}
+        }
+      ]
+    },
+    "multi_platform": {
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "success",
+          "detail": null
+        },
+        {
+          "provider": "exa",
+          "status": "unavailable",
+          "detail": "EXA_API_KEY is not configured"
+        },
+        {
+          "provider": "youtube",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "bilibili",
+          "status": "partial",
+          "detail": "no indexed results"
+        },
+        {
+          "provider": "zhihu",
+          "status": "success",
+          "detail": null
+        }
+      ],
+      "raw_candidate_count": 6,
+      "deduped_count": 6,
+      "top_results": [
+        {
+          "id": "web-0",
+          "platform": "web",
+          "title": "MarginNote · Where deep reading leaves a trace",
+          "url": "https://www.marginnote.com/",
+          "author": null,
+          "published_at": null,
+          "snippet": "Where deep reading leaves a trace. Books you read should still be useful later. MarginNote keeps highlights, mind-map notes, and flashcards in one study set, so you can find what you marked when you need it.",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.85,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://marginnote.com/",
+          "duplicate_group_id": "dup-001",
+          "metadata": {}
+        },
+        {
+          "id": "web-1",
+          "platform": "web",
+          "title": "MarginNote · 让学习留下思考的痕迹",
+          "url": "https://www.marginnote.com.cn/",
+          "author": null,
+          "published_at": null,
+          "snippet": "MarginNote 4：在 PDF 上做高亮 → 自动成卡 → 在脑图里整理 → FSRS 间隔复习。 13 年迭代（自 MN1 2013 起），App Store 18.8 万评分。 适合医学、考研、科研、律师阅卷等需要长期回看学习资料的场景。",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.8,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://marginnote.com.cn/",
+          "duplicate_group_id": "dup-002",
+          "metadata": {}
+        },
+        {
+          "id": "web-2",
+          "platform": "web",
+          "title": "MarginNote 中文社区 - 倍化效率，分享经验，传播爱书者的精神",
+          "url": "https://bbs.marginnote.com.cn/",
+          "author": null,
+          "published_at": null,
+          "snippet": "MarginNote 中文社区 阅读笔记软件MarginNote——产品用户反馈社区 京ICP备17035497号-1",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.75,
+          "evidence_level": "unknown",
+          "extraction_available": true,
+          "canonical_url": "https://bbs.marginnote.com.cn/",
+          "duplicate_group_id": "dup-003",
+          "metadata": {}
+        },
+        {
+          "id": "zhihu-3",
+          "platform": "zhihu",
+          "title": "学用系列｜MarginNote，从入门到精通看这篇就足够了 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/54345647",
+          "author": null,
+          "published_at": null,
+          "snippet": "MarginNote，让人倍感惊艳的强大笔记应用，阅读、批注、重组信息、生成大纲及思维导图，你都可以用它一次完成。 今天胖胖老师就帮助大家介绍如何使用MarginNote。 基本上手指南【MarginNote】是一款功能强大且人性…",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.73,
+          "evidence_level": "community",
+          "extraction_available": true,
+          "canonical_url": "https://zhuanlan.zhihu.com/p/54345647",
+          "duplicate_group_id": "dup-004",
+          "metadata": {}
+        },
+        {
+          "id": "zhihu-4",
+          "platform": "zhihu",
+          "title": "Marginnote不支持win系统？用这款工具完美替代！ - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/144749261",
+          "author": null,
+          "published_at": null,
+          "snippet": "MarginNote 是一款基于苹果系统的阅读软件，集成了阅读、注释、摘录、思维导图等功能，是我们阅读和学习的利器，他在苹果应用商店超高的得分可以看得出用户对它的喜爱，如果你使用过它来学习，你就会被它深深的吸引，因为这款软件实在是太好用了。",
+          "content_type": "article",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "comments": null
+          },
+          "search_score": 0.68,
+          "evidence_level": "community",
+          "extraction_available": true,
+          "canonical_url": "https://zhuanlan.zhihu.com/p/144749261",
+          "duplicate_group_id": "dup-005",
+          "metadata": {}
+        }
+      ]
+    },
+    "notes": []
+  }
+]

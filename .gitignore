@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+credentials-*.json
+*cookie*.txt
+*cookie*.json
+*token*.json
+*secret*.json
+service-account*.json
+__pycache__/
+*.py[cod]
+.pytest_cache/

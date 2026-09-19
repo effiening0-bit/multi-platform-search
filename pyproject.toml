@@ -1,0 +1,9 @@
+[project]
+name = "multi-platform-search"
+version = "0.1.0"
+requires-python = ">=3.10"
+description = "Independent multi-platform discovery for agents"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
