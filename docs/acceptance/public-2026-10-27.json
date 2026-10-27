@@ -1,0 +1,139 @@
+{
+  "checked_at_utc": "2026-10-27T10:34:28.208271+00:00",
+  "base_url": "https://multi-platform-search.onrender.com",
+  "sdk": "1.29.0",
+  "checks": [
+    {
+      "name": "/health",
+      "passed": true,
+      "http_status": 200,
+      "release": null
+    },
+    {
+      "name": "/ready",
+      "passed": true,
+      "http_status": 200,
+      "release": null
+    },
+    {
+      "name": "auth_missing/v1/search",
+      "passed": true,
+      "http_status": 401
+    },
+    {
+      "name": "auth_missing/mcp/",
+      "passed": true,
+      "http_status": 401
+    },
+    {
+      "name": "auth_wrong/v1/search",
+      "passed": true,
+      "http_status": 401
+    },
+    {
+      "name": "auth_wrong/mcp/",
+      "passed": true,
+      "http_status": 401
+    },
+    {
+      "name": "mcp_endpoint_no_421",
+      "passed": true,
+      "http_status": 200
+    },
+    {
+      "name": "http_search",
+      "passed": true,
+      "http_status": 200,
+      "status": "success",
+      "result_count": 3,
+      "platforms": [
+        "web"
+      ],
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "success"
+        }
+      ],
+      "warning_count": 0
+    },
+    {
+      "name": "mcp_initialize",
+      "passed": true,
+      "protocol": "2025-11-25",
+      "server": "multi-platform-search",
+      "server_version": "1.30.0"
+    },
+    {
+      "name": "mcp_tools_list",
+      "passed": true,
+      "tools": [
+        "multi_platform_search",
+        "search_platform"
+      ]
+    },
+    {
+      "name": "multi_platform_search",
+      "passed": true,
+      "status": "partial",
+      "result_count": 9,
+      "platforms": [
+        "exa",
+        "web",
+        "youtube",
+        "zhihu"
+      ],
+      "provider_status": [
+        {
+          "provider": "web",
+          "status": "success"
+        },
+        {
+          "provider": "exa",
+          "status": "success"
+        },
+        {
+          "provider": "youtube",
+          "status": "success"
+        },
+        {
+          "provider": "bilibili",
+          "status": "partial"
+        },
+        {
+          "provider": "zhihu",
+          "status": "success"
+        },
+        {
+          "provider": "xiaohongshu",
+          "status": "partial"
+        }
+      ],
+      "warning_count": 1
+    },
+    {
+      "name": "search_platform",
+      "passed": true,
+      "status": "success",
+      "result_count": 3,
+      "platforms": [
+        "youtube"
+      ],
+      "provider_status": [
+        {
+          "provider": "youtube",
+          "status": "success"
+        }
+      ],
+      "warning_count": 0
+    },
+    {
+      "name": "rate_limit",
+      "passed": true,
+      "requests": 14,
+      "http_status": 429,
+      "retry_after": "60"
+    }
+  ],
+  "passed": true
+}

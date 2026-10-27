@@ -1,8 +1,17 @@
+---
+name: multi-platform-search
+description: Search and compare public web pages, tutorials, videos, reviews and community discussions across Web, Exa, YouTube, Bilibili, Zhihu and Xiaohongshu. Use when the user needs source discovery across one or more platforms.
+---
+
 # multi-platform-search
 
 ## Trigger
 
 Use when the user asks to search, investigate, find tutorials, reviews, discussions, or community experience across sources—especially “多平台深搜”, Bilibili, Zhihu, Xiaohongshu, or YouTube. Do not use it when a user already supplies a specific media URL: that belongs to Media Inbox.
+
+## Live tools
+
+Discover and call the connected `multi_platform_search` tool, or `search_platform` for one platform. If the server is unavailable or not authenticated, report the blocker; do not claim a live search occurred. The skill itself does not execute HTTP requests.
 
 ## Procedure
 

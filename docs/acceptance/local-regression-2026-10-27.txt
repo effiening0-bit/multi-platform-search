@@ -1,0 +1,59 @@
+C:\Users\С��\AppData\Local\Programs\Python\Python311\Lib\site-packages\pydantic_settings\sources\utils.py:47: IncompleteFieldDefinitionWarning: Field 'lifespan' has an incomplete definition: its annotation contains an unresolved forward reference, so settings sources may fail to correctly resolve its value. Call `model_rebuild()` on the model where the field is defined, once all the referenced types are defined.
+  warnings.warn(
+test_deduplication_preserves_group (test_core.CoreTests.test_deduplication_preserves_group) ... ok
+test_provider_failure_does_not_break_chain (test_core.CoreTests.test_provider_failure_does_not_break_chain) ... ok
+test_router_and_rewriter (test_core.CoreTests.test_router_and_rewriter) ... ok
+test_url_normalize_removes_tracking (test_core.CoreTests.test_url_normalize_removes_tracking) ... ok
+test_web_bilibili_youtube_zhihu_and_xhs_contract (test_integration_contracts.IntegrationContracts.test_web_bilibili_youtube_zhihu_and_xhs_contract) ... ok
+test_web_survives_all_other_provider_failures (test_integration_contracts.IntegrationContracts.test_web_survives_all_other_provider_failures) ... ok
+test_tools_are_read_only (test_remote_contracts.McpAnnotations.test_tools_are_read_only) ... ok
+test_bearer_required_for_http_and_mcp (test_remote_contracts.RemoteContracts.test_bearer_required_for_http_and_mcp) ... [10/27/26 18:38:54] INFO     HTTP Request: GET                  _client.py:1092
+                             http://testserver/v1/providers                    
+                             "HTTP/1.1 401 Unauthorized"                       
+                    INFO     HTTP Request: GET                  _client.py:1092
+                             http://testserver/v1/providers                    
+                             "HTTP/1.1 401 Unauthorized"                       
+                    INFO     HTTP Request: GET                  _client.py:1092
+                             http://testserver/v1/providers                    
+                             "HTTP/1.1 401 Unauthorized"                       
+                    INFO     HTTP Request: GET                  _client.py:1092
+                             http://testserver/v1/providers                    
+                             "HTTP/1.1 401 Unauthorized"                       
+                    INFO     HTTP Request: GET                  _client.py:1092
+                             http://testserver/mcp/ "HTTP/1.1                  
+                             401 Unauthorized"                                 
+                    INFO     HTTP Request: GET                  _client.py:1092
+                             http://testserver/mcp/ "HTTP/1.1                  
+                             401 Unauthorized"                                 
+                    INFO     HTTP Request: GET                  _client.py:1092
+                             http://testserver/mcp/ "HTTP/1.1                  
+                             401 Unauthorized"                                 
+                    INFO     HTTP Request: GET                  _client.py:1092
+                             http://testserver/mcp/ "HTTP/1.1                  
+                             401 Unauthorized"                                 
+                    INFO     HTTP Request: GET                  _client.py:1092
+                             http://testserver/v1/providers                    
+                             "HTTP/1.1 200 OK"                                 
+ok
+test_health_reports_deployed_commit (test_remote_contracts.RemoteContracts.test_health_reports_deployed_commit) ...                     INFO     HTTP Request: GET                  _client.py:1092
+                             http://testserver/health "HTTP/1.1                
+                             200 OK"                                           
+                    INFO     HTTP Request: GET                  _client.py:1092
+                             http://testserver/ready "HTTP/1.1                 
+                             200 OK"                                           
+ok
+test_limiter_rejects_metadata_without_provider_cost (test_remote_contracts.RemoteContracts.test_limiter_rejects_metadata_without_provider_cost) ...                     INFO     HTTP Request: GET                  _client.py:1092
+                             http://testserver/v1/providers                    
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1092
+                             http://testserver/v1/providers                    
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1092
+                             http://testserver/v1/providers                    
+                             "HTTP/1.1 429 Too Many Requests"                  
+ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.257s
+
+OK

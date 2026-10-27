@@ -27,15 +27,17 @@ async def mcp_auth(request: Request, call_next):
 class RequestModel(BaseModel): query:str=Field(min_length=1,max_length=500); mode:str='normal'; platforms:list[str]|None=None; max_results:int|None=Field(None,ge=1,le=30)
 def guard(header):
     expected=os.getenv('SERVICE_API_KEY',''); auth=os.getenv('SERVICE_AUTH_REQUIRED','true').lower()=='true'
-    if auth and (not expected or not header or not hmac.compare_digest(header.removeprefix('Bearer '),expected)): raise HTTPException(401,'unauthorized')
-    key=hashlib.sha256((header or 'local').encode()).hexdigest(); now=time.monotonic(); q=hits[key]
+    scheme, _, token = (header or '').partition(' ')
+    if auth and (not expected or scheme.lower() != 'bearer' or not token or not hmac.compare_digest(token.encode(), expected.encode())):
+        raise HTTPException(401, 'unauthorized', headers={'WWW-Authenticate': 'Bearer'})
+    key=hashlib.sha256((token if auth else (header or 'local')).encode()).hexdigest(); now=time.monotonic(); q=hits[key]
     while q and now-q[0]>60:q.popleft()
     if len(q)>=int(os.getenv('RATE_LIMIT_REQUESTS_PER_MINUTE','30')): raise HTTPException(429,'rate_limited',headers={'Retry-After':'60'})
     q.append(now)
 @app.get('/health')
-def health(): return {'status':'ok'}
+def health(): return {'status':'ok','release':os.getenv('RENDER_GIT_COMMIT','unknown')}
 @app.get('/ready')
-def ready(): return {'status':'ok','initialized':True}
+def ready(): return {'status':'ok','initialized':True,'release':os.getenv('RENDER_GIT_COMMIT','unknown')}
 @app.get('/v1/providers')
 def providers(authorization:str|None=Header(None)):
     guard(authorization); return [{'provider':n,'configured':bool(os.getenv({'web':'TAVILY_API_KEY','youtube':'YOUTUBE_API_KEY','exa':'EXA_API_KEY'}.get(n,''))),'enabled':True,'source_type':'third_party_api'} for n in service.providers]

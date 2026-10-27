@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "multi-platform-search",
+  "version": "0.1.1",
+  "description": "Discover public sources across Web, Exa, YouTube, Bilibili, Zhihu and Xiaohongshu through one authenticated search service.",
+  "author": {
+    "name": "Yiqiao Ning"
+  },
+  "repository": "https://github.com/effiening0-bit/multi-platform-search",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Multi-platform Search",
+        "shortDescription": "Search public sources",
+        "longDescription": "Find and compare public sources using the existing Search Core. Bilibili and Xiaohongshu coverage is best-effort. No media downloads or Notion writes.",
+        "developerName": "Yiqiao Ning",
+        "defaultPrompt": "Find public tutorials about Zotero across web and video platforms.",
+        "capabilities": []
+      }
+    }
+  }
+}

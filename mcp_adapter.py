@@ -1,5 +1,6 @@
 """Official MCP SDK adapter. Search business logic remains in SearchService."""
 from mcp.server.fastmcp import FastMCP
+from mcp.types import ToolAnnotations
 from mcp.server.transport_security import TransportSecuritySettings
 from multi_platform_search import SearchService
 
@@ -22,13 +23,13 @@ mcp = FastMCP(
 )
 service = SearchService()
 
-@mcp.tool(description="Discovery-layer search across Tavily/Web, YouTube, Bilibili, Zhihu, Xiaohongshu and optional Exa. Provider partial failures remain warnings; community sources are not final medical fact authority; full text/transcript extraction belongs to a later layer.")
+@mcp.tool(annotations=ToolAnnotations(readOnlyHint=True, destructiveHint=False, idempotentHint=True, openWorldHint=True), description="Discovery-layer search across Tavily/Web, YouTube, Bilibili, Zhihu, Xiaohongshu and optional Exa. Provider partial failures remain warnings; community sources are not final medical fact authority; full text/transcript extraction belongs to a later layer.")
 def multi_platform_search(query: str, mode: str = "normal", platforms: list[str] | None = None, max_results: int | None = None) -> dict:
     response = service.search(query, mode, platforms)
     results = response.results[:max_results] if max_results else response.results
     return {"request_id": "mcp-local", "status": "success" if all(s.status == "success" for s in response.provider_status) else "partial", "query": query, "mode": mode, "results": [r.to_dict() for r in results], "providers": [s.__dict__ for s in response.provider_status], "warnings": response.warnings, "meta": {"candidate_count": len(response.results), "deduped_count": len(response.results)}}
 
-@mcp.tool(description="Search exactly one supported platform through the shared multi-platform Search Core.")
+@mcp.tool(annotations=ToolAnnotations(readOnlyHint=True, destructiveHint=False, idempotentHint=True, openWorldHint=True), description="Search exactly one supported platform through the shared multi-platform Search Core.")
 def search_platform(query: str, platform: str, mode: str = "normal") -> dict:
     return multi_platform_search(query, mode, [platform], None)
 

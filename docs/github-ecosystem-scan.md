@@ -17,3 +17,32 @@ Reviewed 51 search results across four discovery workstreams, then read the cand
 ## Build-from-scratch justification
 
 The only retained custom code is the thin shared schema/router/normalizer plus isolated provider adapters. Mature alternatives either (a) are extraction rather than discovery, (b) require cookies/login/browser automation, (c) are GPL or operationally much broader than needed, (d) impose localhost services, or (e) have insufficient maintenance history. This minimizes the code that must be maintained while preserving a cookie-free remote path.
+
+## 2026-10-27 takeover update
+
+Rechecked the official modelcontextprotocol/python-sdk, tavily-ai/tavily-mcp and
+exa-labs/exa-mcp-server repositories through GitHub and their license files.
+All are public and not archived; the SDK and both provider MCP projects use MIT.
+Their live repository/docs show ongoing development. The existing service uses
+the official MCP SDK; this is the retained Adopt decision, not a new protocol
+implementation. Current public service/client tests used SDK 1.30.0/1.29.0.
+The SDK main branch has v2 changes, so this task does not blindly migrate the
+working v1 transport or widen the pinned major range.
+
+Tavily MCP and Exa MCP remain Reference choices for the existing provider layer.
+They cover their own engines, not the complete six-provider routing/evidence
+contract. Adding both as nested MCP servers would duplicate transports and
+credential handling while still leaving social-platform adapters. No additional
+provider dependency, paid endpoint, browser/cookie collector or extraction
+feature was adopted. The existing direct API adapters remain isolated behind
+Search Core. The portable plugin manifest adopts the documented Agent Plugins
+format and references the existing authenticated Render server.
+
+Primary sources:
+- https://github.com/modelcontextprotocol/python-sdk
+- https://github.com/modelcontextprotocol/python-sdk/blob/main/LICENSE
+- https://github.com/tavily-ai/tavily-mcp
+- https://github.com/tavily-ai/tavily-mcp/blob/main/LICENCE
+- https://github.com/exa-labs/exa-mcp-server
+- https://github.com/exa-labs/exa-mcp-server/blob/main/LICENSE
+- https://developers.openai.com/plugins/build/plugins

@@ -9,5 +9,5 @@ def load_local_env() -> None:
     for line in path.read_text(encoding="utf-8").splitlines():
         if not line or line.lstrip().startswith("#") or "=" not in line: continue
         key, value = line.split("=", 1)
-        if key in {"TAVILY_API_KEY", "EXA_API_KEY", "YOUTUBE_API_KEY"}:
+        if key in {"TAVILY_API_KEY", "EXA_API_KEY", "YOUTUBE_API_KEY", "SERVICE_API_KEY"}:
             os.environ.setdefault(key.strip(), value.strip())
