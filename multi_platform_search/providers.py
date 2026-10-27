@@ -56,18 +56,34 @@ class BilibiliProvider(Provider):
         try:
             with urlopen(req, timeout=8) as response: payload = json.loads(response.read().decode("utf-8"))
         except Exception:
-            # Public endpoint protections vary by region/IP. Preserve discovery via
-            # a public index instead of escalating to cookies or browser automation.
-            results = BingRssProvider("bilibili.com", "bilibili").search(query, limit)
-            for result in results: result.metadata["fallback"] = "web_index_after_public_api_failure"
-            return results
-        if payload.get("code") != 0: raise RuntimeError(payload.get("message", "Bilibili search failed"))
+            return self._index_fallback(query, limit, "public_api_failure")
+        if payload.get("code") != 0:
+            return self._index_fallback(query, limit, "public_api_rejected")
         items = payload.get("data", {}).get("result", [])[:limit]
+        if not items:
+            return self._index_fallback(query, limit, "public_api_empty")
         output = []
         for index, item in enumerate(items):
             bvid = item.get("bvid", "")
             output.append(SearchResult(id=f"bilibili-{bvid or index}", platform="bilibili", title=re.sub("<.*?>", "", item.get("title", "")), url=f"https://www.bilibili.com/video/{bvid}" if bvid else item.get("arcurl", ""), author=item.get("author"), published_at=item.get("pubdate"), snippet=re.sub("<.*?>", "", item.get("description", "")), content_type="video", engagement={"views": int(item["play"]) if str(item.get("play", "")).isdigit() else None, "likes": None, "comments": None}, search_score=max(.1, .85-index*.05), evidence_level="community", extraction_available=True, metadata={"bvid": bvid}))
         return output
+
+    @staticmethod
+    def _index_fallback(query: str, limit: int, reason: str) -> list[SearchResult]:
+        # Reuse the existing API/key with one basic search, then the free RSS
+        # fallback. No cookies, browser sessions, extraction or paid upgrade.
+        results = []
+        if os.getenv("TAVILY_API_KEY"):
+            try:
+                results = TavilyProvider(site="bilibili.com", name="bilibili").search(query, limit)
+            except Exception:
+                pass
+        if not results:
+            results = BingRssProvider("bilibili.com", "bilibili").search(query, limit)
+        for result in results:
+            result.metadata["fallback"] = "web_index_after_public_api_failure"
+            result.metadata["fallback_reason"] = reason
+        return results
 
 class YouTubeProvider(Provider):
     name = "youtube"
@@ -79,12 +95,41 @@ class YouTubeProvider(Provider):
 
 class TavilyProvider(Provider):
     name = "web"
+    def __init__(self, site: str | None = None, name: str = "web"):
+        self.site, self.name = site, name
+
     def search(self, query: str, limit: int) -> list[SearchResult]:
         key = os.getenv("TAVILY_API_KEY")
-        if not key: return BingRssProvider().search(query, limit)
-        req = Request("https://api.tavily.com/search", data=json.dumps({"query": query, "max_results": limit, "search_depth": "basic", "include_answer": False}).encode(), headers={"Content-Type": "application/json", "Authorization": "Bearer " + key, "User-Agent": UA})
-        with urlopen(req, timeout=10) as response: payload = json.loads(response.read())
-        return [SearchResult(id=f"web-{index}", platform="web", title=item["title"], url=item["url"], published_at=item.get("published_date"), snippet=item.get("content"), content_type="article", search_score=item.get("score", max(.1, .8-index*.05)), evidence_level="unknown", extraction_available=True, metadata={"source_type": "third_party_api", "provider": "tavily"}) for index, item in enumerate(payload.get("results", []))]
+        if not key: return BingRssProvider(self.site, self.name).search(query, limit)
+        payload = {"query": query, "max_results": limit, "search_depth": "basic",
+                   "auto_parameters": False, "include_answer": False, "include_raw_content": False}
+        if self.site:
+            payload["include_domains"] = [self.site]
+        req = Request("https://api.tavily.com/search", data=json.dumps(payload).encode(),
+                      headers={"Content-Type": "application/json", "Authorization": "Bearer " + key, "User-Agent": UA})
+        with urlopen(req, timeout=10) as response: response_data = json.loads(response.read())
+        results = []
+        for index, item in enumerate(response_data.get("results", [])):
+            url = item.get("url", "")
+            try:
+                parts = urlsplit(url)
+                host = (parts.hostname or "").lower()
+                if parts.scheme not in ("http", "https"):
+                    continue
+            except ValueError:
+                continue
+            if self.site and host != self.site and not host.endswith("." + self.site):
+                continue
+            results.append(SearchResult(
+                id=f"{self.name}-{index}", platform=self.name, title=item.get("title", url), url=url,
+                published_at=item.get("published_date"), snippet=item.get("content"),
+                content_type="video" if self.name == "bilibili" and "/video/" in parts.path else "article",
+                search_score=item.get("score", max(.1, .8-index*.05)),
+                evidence_level="community" if self.site else "unknown", extraction_available=True,
+                metadata={"source_type": "public_index_fallback" if self.site else "third_party_api", "provider": "tavily"}))
+            if len(results) >= limit:
+                break
+        return results
 
 class ExaProvider(Provider):
     name = "exa"

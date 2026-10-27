@@ -1,0 +1,120 @@
+{
+  "checked_at": "2026-10-27T11:47:21.527Z",
+  "before": [
+    {
+      "platform": "bilibili",
+      "status": "partial",
+      "providers": [
+        {
+          "provider": "bilibili",
+          "status": "partial",
+          "detail": "no indexed results"
+        }
+      ],
+      "results": []
+    },
+    {
+      "platform": "web",
+      "status": "success",
+      "providers": [
+        {
+          "provider": "web",
+          "status": "success",
+          "detail": null
+        }
+      ],
+      "results": [
+        {
+          "title": "Zotero 7 Beginner’s Step-by-Step Guide (+12 Must-Have Plugins Tutorial)—This One Video Is All You Need!_Bilibili",
+          "url": "https://www.bilibili.com/video/BV1a5HazUERc",
+          "metadata": {
+            "source_type": "third_party_api",
+            "provider": "tavily"
+          }
+        },
+        {
+          "title": "【Zotero入门教程合集】 27. 在iPad上使用 ...",
+          "url": "https://www.bilibili.com/video/BV1SM411p7qW",
+          "metadata": {
+            "source_type": "third_party_api",
+            "provider": "tavily"
+          }
+        },
+        {
+          "title": "Zotero 7 Beginner's Tutorial｜From Installation to Usage, Master Literature Management & Citation in 30 Minutes!_Bilibili",
+          "url": "https://www.bilibili.com/video/BV1AopNzFE8o",
+          "metadata": {
+            "source_type": "third_party_api",
+            "provider": "tavily"
+          }
+        }
+      ]
+    }
+  ],
+  "local_direct": {
+    "count": 3,
+    "results": [
+      {
+        "title": "Zotero7保姆级教程｜科研党/研究生必备文献管理终极指南",
+        "url": "https://www.bilibili.com/video/BV136dUYKEYU",
+        "platform": "bilibili",
+        "metadata": {
+          "bvid": "BV136dUYKEYU"
+        }
+      },
+      {
+        "title": "【20分钟速成Zotero】Zotero8/9/10零基础保姆级教程，一个视频学会Zotero软件及插件安装、文献抓取及管理、引文插入与参考文献生成！",
+        "url": "https://www.bilibili.com/video/BV1tqTe6hEWw",
+        "platform": "bilibili",
+        "metadata": {
+          "bvid": "BV1tqTe6hEWw"
+        }
+      },
+      {
+        "title": "zotero视频教程文献管理论文写作参考文献插入",
+        "url": "https://www.bilibili.com/cheese/play/ss10090?query_from=0&search_id=15504234593402691338&search_query=Zotero+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B+%E6%95%99%E7%A8%8B",
+        "platform": "bilibili",
+        "metadata": {
+          "bvid": ""
+        }
+      }
+    ]
+  },
+  "local_domain_fallback": {
+    "count": 3,
+    "results": [
+      {
+        "title": "【Zotero入门教程合集】 11 汇总一个PDF文档的画线和笔记_Bilibili",
+        "url": "https://www.bilibili.com/video/BV1oV4y1q7Mo",
+        "platform": "bilibili",
+        "metadata": {
+          "source_type": "public_index_fallback",
+          "provider": "tavily"
+        }
+      },
+      {
+        "title": "Zotero 7 Beginner’s Step-by-Step Guide (+12 Must-Have Plugins Tutorial)—This One Video Is All You Need!_Bilibili",
+        "url": "https://www.bilibili.com/video/BV1a5HazUERc",
+        "platform": "bilibili",
+        "metadata": {
+          "source_type": "public_index_fallback",
+          "provider": "tavily"
+        }
+      },
+      {
+        "title": "[Zotero Beginner Tutorial Series] 18. Sorting Content_Bilibili",
+        "url": "https://www.bilibili.com/video/BV1nY4y197uh",
+        "platform": "bilibili",
+        "metadata": {
+          "source_type": "public_index_fallback",
+          "provider": "tavily"
+        }
+      }
+    ]
+  },
+  "regression": {
+    "passed": true,
+    "tests": 16
+  },
+  "notion_execution_record_independently_verified": false
+}
