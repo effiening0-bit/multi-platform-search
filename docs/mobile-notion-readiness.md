@@ -49,3 +49,19 @@ Official sources checked 2026-10-27:
 - https://www.notion.com/help/connect-mcp-servers-to-your-notion-agent
 - https://www.notion.com/help/mcp-connections-for-custom-agents
 - https://www.notion.com/help/buy-and-track-notion-credits-for-custom-agents
+
+## 2026-10-27 follow-up from the user
+
+The user confirmed an existing Notion Business subscription and reported
+completing the custom MCP connection with API-key header authentication. Their
+Agent reported `search_platform`, Bilibili, quick, query `Zotero 入门教程`, returning
+`partial / no indexed results`. This is user-reported client evidence, not an
+independently inspected Notion tool-call record.
+
+The same zero-result query was independently reproduced on the public MCP,
+then fixed in the Bilibili index fallback. Public retest returned three links.
+The user can retain the existing Notion connection. Automatic selection remains
+unverified: append the search-routing rule to the currently active personal
+Agent Instructions page, then make a new request without naming the tool and
+check Notion's actual tool-call record. No Notion instruction page or skill
+was edited by this server fix.

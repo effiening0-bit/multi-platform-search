@@ -36,3 +36,14 @@ The MCP endpoint, tool schemas and credentials are unchanged. No reconnect or
 new API key should be necessary in Notion. Automatic selection of the tool is
 still a separate client instruction/permission setting, not verified by this
 provider fix.
+
+## Public verification
+
+Render deployed functional commit `855786f9fc5c8ba45a97d60248ee06fa22bd325c`.
+The official MCP Client repeated the exact Notion test arguments and received
+`success` with three Bilibili links. All three were explicitly marked as Tavily
+public-index fallback after public API failure. Initialize, tools/list, ready
+and a general Web regression also passed. See
+[public evidence](acceptance/bilibili-public-2026-10-27.json).
+This validates the shared server path, not a new Notion Agent session or its
+automatic selection behavior.
