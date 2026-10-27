@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-10-27",
+  "scope": "USER",
+  "discoverability": "PRIVATE",
+  "plugin_id": "plugins_6ae07ee703088191bc6e129d10416226",
+  "release_id": "pluginrel_6ae07ee889c88191a3c4ae34b0670d38",
+  "version": "0.1.1",
+  "plugin_url": "https://chatgpt.com/plugins/plugins_6ae07ee703088191bc6e129d10416226",
+  "endpoint": "https://multi-platform-search.onrender.com/mcp/",
+  "auth_type": "api_key",
+  "header_scheme": "bearer",
+  "skill_packaged": true,
+  "saved_package_verified": true,
+  "installation_verified": false,
+  "credential_connection_verified": false,
+  "web_tool_call_verified": false,
+  "mobile_tool_call_verified": false
+}

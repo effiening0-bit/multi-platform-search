@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-10-27",
+  "decisions": [
+    {
+      "repository": "modelcontextprotocol/python-sdk",
+      "head": "a525a3d9bece967d91534b746a6c842931b7b4ec",
+      "last_commit_utc": "2026-10-24T20:19:26Z",
+      "license": "MIT",
+      "archived": false,
+      "decision": "Adopt existing v1 SDK; retain major bound <2; no automatic v2 migration"
+    },
+    {
+      "repository": "tavily-ai/tavily-mcp",
+      "head": "514e56cd0f76f3c4c0fb9e1347bc8e48f9028cdc",
+      "last_commit_utc": "2026-10-26T17:16:00Z",
+      "license": "MIT",
+      "archived": false,
+      "decision": "Reference; existing direct Tavily API wrapper preserves six-provider core without nested MCP or extraction"
+    },
+    {
+      "repository": "exa-labs/exa-mcp-server",
+      "head": "0b499f095c4ca145eee07b09137641c037d58449",
+      "last_commit_utc": "2026-10-19T19:23:36Z",
+      "license": "MIT",
+      "archived": false,
+      "decision": "Reference; existing optional Exa adapter remains behind Search Core"
+    }
+  ]
+}

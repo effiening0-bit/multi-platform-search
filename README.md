@@ -11,7 +11,7 @@ Media Inbox remains a separate project. No automatic media download or Notion wr
 - [Client connection status](docs/mobile-notion-readiness.md)
 - [MCP transport and acceptance](docs/mcp-server.md)
 - [Deployment status and limits](docs/remote-readiness.md)
-- [Dated public test evidence](docs/acceptance/public-2026-10-27.json)
+- [Dated public test evidence](docs/acceptance/public-final-2026-10-27.json)
 - [Open-source adoption decisions](docs/github-ecosystem-scan.md)
 
 Run the core CLI: `python cli.py search "Zotero tutorials" --mode quick --json`.

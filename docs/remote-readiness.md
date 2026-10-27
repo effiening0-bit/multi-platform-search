@@ -5,7 +5,7 @@ The canonical MCP endpoint is `https://multi-platform-search.onrender.com/mcp/`.
 The original Host fix `39671c4` was pushed normally, preserving all history.
 Public tests using the official Python MCP SDK passed initialize, tools/list,
 both search tools, HTTP search, missing/wrong-token 401, and 429 with Retry-After.
-See `acceptance/public-2026-10-27.json`. This is dated evidence, not a permanent
+See `acceptance/public-final-2026-10-27.json`. This is dated evidence, not a permanent
 uptime guarantee. `/health` and `/ready` now expose Render's `RENDER_GIT_COMMIT`
 as `release`, so callers can verify the actual running commit.
 
